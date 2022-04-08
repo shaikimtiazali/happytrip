@@ -1,0 +1,30 @@
+.Card{
+	width: 35%;
+	margin: auto;
+    height: 70px;
+}
+
+.Card__parent{
+	width: 95%;
+	margin: 10px;
+	background-color:rgb(142, 212, 133);
+	border-radius: 15px;
+	box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+	color:rgb(18, 19, 14);
+	font-weight: 600;
+    font-size: 18px;
+    height:180px;
+    text-align: center;
+    margin-top: 50px;
+	margin-bottom: 35px;
+	border-radius: 5px;
+    padding: 20px;
+    
+}
+
+
+@media (max-width: 700px){
+	.Card{
+		width: 95%;
+	}
+}
